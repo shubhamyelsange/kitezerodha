@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	 WebDriverManager.chromedriver().setup();//setup()mule run hoto prgm
 	 WebDriver dr=new ChromeDriver();
 	dr.get("https://www.google.com/");
-	
+	System.out.println("shubham");
 	
 }
 }
